@@ -11,12 +11,12 @@ public class Leet {
      }
 
      static int arrangeCoins(int n) {
-          int i = 1;
+          int i = 0;
           int count = 0;
-          while (i <= n) {
+          while (i < n) {
                int k = i;
-               for (int j = 1; j <= k; j++) {
-                    if (i >= n) {
+               for (int j = 0; j <= k; j++) {
+                    if (!(i <= n)) {
                          return count;
                     }
                     i++;
