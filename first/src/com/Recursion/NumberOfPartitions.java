@@ -17,13 +17,7 @@ public class NumberOfPartitions {
           System.out.println(possiblePartitions(3, 3));
           System.out.println(possiblePartitions(2, 1));
           System.out.println(possiblePartitions(1, 2));
-          System.out.println(23 == possiblePartitions(9, 5));
-          System.out.println(possiblePartitions(0, 0));
-          System.out.println(possiblePartitions(0, 0));
-          System.out.println(possiblePartitions(0, 0));
-          System.out.println(possiblePartitions(0, 0));
-          System.out.println(possiblePartitions(0, 0));
-          System.out.println(possiblePartitions(0, 0));
+          System.out.println(23 == possiblePartitions(9, 5));// It return **true** by checking the correct answer of the given case of n == 9 & m == 5
      }
 
      static int possiblePartitions(int n, int m) {
